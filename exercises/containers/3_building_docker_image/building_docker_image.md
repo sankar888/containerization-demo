@@ -15,7 +15,7 @@ cd /root/containerization-demo/exercises/3_building_docker_image
 docker build --rm --tag docker.io/<ur_name>/mynginx:1.0.0 .
 
 # after successful build, a new docker image will be present in docker images
-docker imaes
+docker images
 
 # run this new container
 docker run --name custom-welcome --rm -d -p 8080:8081 docker.io/<ur_name>/mynginx:1.0.0
