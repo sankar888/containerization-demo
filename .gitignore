@@ -1,6 +1,6 @@
 # IDE related
-.vscode/          # VS Code settings & extensions
 .idea/            # JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+.vscode          # VS Code settings & extensions
 *.iml             # JetBrains module files
 *.suo             # Visual Studio user settings
 *.ntvs*           # Node.js Tools for Visual Studio
